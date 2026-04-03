@@ -36,6 +36,26 @@ minions["Metadata/Monsters/Axis/AxisCaster"] = {
 		mod("BlockEffect", "BASE", 10, 0, 0), -- MonsterSpellBlock25Bypass30___ [base_block_%_damage_taken = 10]
 	},
 }
+-- Unholy Aberration
+minions["Metadata/Monsters/SpiderPlated/SpiderPlatedUnholyEmerge"] = {
+	name = "Unholy Aberration",
+	monsterTags = { "animal_claw_weapon", "beast", "flesh_armour", "insect_blood", "is_unarmed", "medium_height", "medium_movement", "melee", "physical_affinity", "spider", },
+	life = 14,
+	fireResist = 0,
+	coldResist = 0,
+	lightningResist = 0,
+	chaosResist = 0,
+	damage = 1.6,
+	damageSpread = 0.2,
+	attackTime = 1.95,
+	attackRange = 18,
+	accuracy = 1,
+	skillList = {
+		"Melee",
+	},
+	modList = {
+	},
+}
 minions["Metadata/Monsters/Axis/AxisCasterArc"] = {
 	name = "Blackguard Arcmage",
 	monsterTags = { "caster", "hard_armour", "has_wand", "human", "humanoid", "lightning_affinity", "medium_height", "medium_movement", "military", "not_dex", "physical_affinity", "ranged", "red_blood", "summoner", },
